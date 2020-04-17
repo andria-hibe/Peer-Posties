@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Vader",
+      "address": "Level 5/12 Morgan Street, Newmarket, Auckland 1023",
+      "phone": "111-111-1111",
+      "email": "darthvader@email.com",
+      "paymentDetails": "11-1111-0101010-00",
+      "rating": "5"
+    },
+    {
+      "id": 2,
+      "name": "Leia",
+      "address": "Victoria Street West, Auckland CBD, Auckland 1010",
+      "phone": "222-222-2222",
+      "email": "leia@email.com",
+      "paymentDetails": "22-2222-0101010-00",
+      "rating": "4"
+    },
+    {
+      "id": 3,
+      "name": "Luke",
+      "address": "The Auckland Domain, Parnell, Auckland 1010",
+      "phone": "333-333-3333",
+      "email": "luke@email.com",
+      "paymentDetails": "33-3333-0101010-00",
+      "rating": "4"
+    }
+  ],
+
+  "delivey": [
+    {
+      "id": 1,
+      "pickup": "Level 5/12 Morgan Street, Newmarket, Auckland 1023",
+      "deliverTo": "Leia",
+      "expectedTime": "2pm",
+      "package": "1"
+    },
+    {
+      "id": 2,
+      "pickup": "The Auckland Domain, Parnell, Auckland 1010",
+      "deliverTo": "Vader",
+      "expectedTime": "6pm",
+      "package": "4"
+    }
+  ],
+
+  "package": [
+    {
+      "id": 1,
+      "type": "1 item (fits on a bike - envelope/medicine/small bag)",
+      "price": "3.5"
+    },
+    {
+      "id": 2,
+      "type": "1-4 items (big bag/box - 22kg MAX - fits in a car)",
+      "price": "5"
+    },
+    {
+      "id": 3,
+      "type": "Up to 10 items (50kg MAX - fits in a car) ",
+      "price": "6"
+    },
+    {
+      "id": 4,
+      "type": "1 item - Fragile",
+      "price": "4"
+    },
+    {
+      "id": 5,
+      "type": "1-4 items - Fragile",
+      "price": "6"
+    },
+    {
+      "id": 6,
+      "type": "1-2 items/bags",
+      "price": "4"
+    },
+    {
+      "id": 7,
+      "type": "3+ items/bags",
+      "price": "6"
+    }
+  ]
+}
