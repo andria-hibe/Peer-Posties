@@ -1,5 +1,24 @@
 /* when adding styles please place within a grouping with a header ie all form styles to be kept under /* Form */
 
+
+/* MainSection */
+
+.background-image{
+    background-image: url('map-dark.jpg');
+    width: 100%;
+    height: 556px;
+    margin-top: 93px;
+}
+
+.hero {
+    color: white;
+    font-size: 5rem;
+}
+
+.hero-2{
+    color: white;
+
+}
 /* NavBar */
 
 .navbar-container{

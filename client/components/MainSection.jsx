@@ -17,7 +17,7 @@ class MainSection extends React.Component {
 
             <Image src="map-dark.jpg" fluid style={{ width: '100%', height: '900%' }} />
 
-            <Container style={{
+            <div style={{
               position: 'absolute',
               top: '20%',
               left: '20%'
@@ -28,9 +28,9 @@ class MainSection extends React.Component {
 
               <h4 style={{ color: 'white' }}>We help business deliver their goods and people pick up their products.</h4>
               
-            </Container>
+            </div>
 
-            <Container style={{
+            <div style={{
               position: 'absolute',
               top: '15%',
               left: '60%',
@@ -38,10 +38,10 @@ class MainSection extends React.Component {
               width: 450
             }}>
               {/* <FormFields /> */}
-            </Container>
+            </div>
 
-            <Container fluid style={{ padding: 0, margin: 0, height: '100%', backgroundColor: '#00428F' }}>
-            </Container>
+            <div style={{ padding: 0, margin: 0, height: '100%', backgroundColor: '#00428F' }}>
+            </div>
 
             <HowItWorks/>
 

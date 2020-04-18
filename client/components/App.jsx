@@ -1,8 +1,9 @@
 
 import React from 'react'
-import MainSection from './MainSection'
+import MainSections from './MainSections'
 import NavBar from './NavBar'
 import MainFooter from './MainFooter'
+import HowItWorks from './HowItWorks'
 
 
 const App = () => {
@@ -10,8 +11,9 @@ const App = () => {
     <>
 
     <NavBar />
-      <MainSection/>
-      
+      <MainSections/>
+      <HowItWorks />
+      <MainFooter />
 
     </>
   );
