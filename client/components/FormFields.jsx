@@ -4,11 +4,11 @@ import { connect } from "react-redux";
 
 import PickupLocation from'./PickupLocation'
 import DropoffLocation from './DropoffLocation'
-
-export function FormFields() {
+import { addDelivery } from '../apis/addDeliveryLng'
+export function FormFields(props) {
   const [validated, setValidated] = useState(false);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event, props) => {
     const form = event.currentTarget
     if (form.checkValidity() === false) {
       event.preventDefault()
@@ -16,6 +16,12 @@ export function FormFields() {
     }
 
     setValidated(true)
+    addDelivery(
+      props.pickupAddress,
+      props.pickupLatLng, 
+      props.dropoffAddress,
+      props.dropLatLng
+      )
   };
 
 
@@ -128,6 +134,7 @@ export function FormFields() {
                 className="book-button"
                 type="submit"
                 feedback="Please complete all fields."
+                onSubmit={this.handleSubmit}
               >
                 Book Now
               </Button>
