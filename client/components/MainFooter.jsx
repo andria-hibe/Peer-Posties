@@ -2,8 +2,8 @@ import React from "react";
 
 const MainFooter = () => {
   return (
-    <footer>
-      <div className='container'>
+    <footer >
+      <div className='footer-style'>
         <div className='row'>
           <div className='col md-6'>
             <a href='#'>
@@ -14,7 +14,7 @@ const MainFooter = () => {
               />
             </a>
 
-            <ul className='list-inline'>
+            {/* <ul className='list-inline'>
               <li className='list-inline-item'>
                 <a href='#facebook' class='fa fa-facebook'></a>
               </li>
@@ -27,10 +27,10 @@ const MainFooter = () => {
               <li className='list-inline-item'>
                 <a href='#linkedin' class='fa fa-linkedin'></a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
-          <div className='navbar col md-6'>
+          <div className='navbar col lg-6'>
             <a href='#about'>
               <span className='text-white small'>About us</span>
             </a>
