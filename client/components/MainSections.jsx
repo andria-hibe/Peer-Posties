@@ -10,16 +10,16 @@ export default function MainSections() {
           <Row className='pt-5'>
             <Col sm={12} lg={6}>
               <h1 className='hero'>Your local on-demand courier </h1>
-              <h2 className='hero-2'>We help business deliver their goods and people pick up their products. </h2>
+              <h2 className='hero-2'>We help business deliver their goods AND people pick up their products. </h2>
             </Col>
             <Col sm={12}lg={6}>
                 {/* <FormFields /> */}
-                <h1 className='hero'>Your local on-demand courier </h1>
+                
             </Col>
           </Row>
           </Container>
         </div>
-        <Row></Row>
+        <Row className='blue-line'></Row>
         
     </div>
   );
