@@ -6,7 +6,8 @@ export function addDelivery(
         pickUpAdress,
         pickupLatLng, 
         dropoffAdddress, 
-        dropoffLatLng
+        dropoffLatLng,
+        formResults
      )
     {
     return request
@@ -15,7 +16,8 @@ export function addDelivery(
         pickUpAdress,
         pickupLatLng,
         dropoffAdddress, 
-        dropoffLatLng
+        dropoffLatLng,
+        formResults
         )
     .then(res => res.body)
     .catch(err =>{
