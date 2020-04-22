@@ -1,4 +1,4 @@
-# Peer Posties NZ - peer-to-peer delivery
+# PeerPostie - peer-to-peer delivery
 
 This is a project that was started during Hack the Crisis NZ 2020 aimed at finding innovative solutions to problems brought about by COVID-19.
 
