@@ -25,7 +25,7 @@ const MainFooter = () => {
               <li className='list-inline-item'>
                 <a href='#linkedin' class='fa fa-linkedin'></a>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div className='navbar col lg-6'>
             <a href='#about'>

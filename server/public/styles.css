@@ -1,5 +1,42 @@
 /* when adding styles please place within a grouping with a header ie all form styles to be kept under /* Form */
 
+
+/* MainSection */
+.row {
+    margin: 0;
+    font-family: Raleway;
+}
+
+.background-image{
+    background-image: url('map-dark.jpg');
+    width: 100%;
+    height: 556px;
+    margin-top: 73px;
+}
+
+.hero {
+    color: white;
+    font-size: 5rem;
+    line-height: 95%;
+    margin-top: 2rem;
+}
+
+.hero-2{
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.blue-line {
+    background-color: #00428F;
+    height: 100px;
+}
+
+.center-col {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /* NavBar */
 
 .navbar-c{
