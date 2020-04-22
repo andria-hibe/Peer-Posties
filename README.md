@@ -1,7 +1,8 @@
-# Peer Posties NZ - peer-to-peer delivery
+# PeerPostie - peer-to-peer delivery
 
 This is a project that was started during Hack the Crisis NZ 2020 aimed at finding innovative solutions to problems brought about by COVID-19.
 
+PeerPostie is a peer-to-peer delivery service that helps you get anything picked up and delivered to and from your door by a neighbour or another local person.
 
 ## Run the project
 To start the development server with a watcher that rebuilds your code, run `npm run dev`. The assets built by webpack are placed in `server/public`. This folder is defined as a static folder in an Express.js server that can be started with `npm run server`.

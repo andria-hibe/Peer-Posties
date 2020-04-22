@@ -26,9 +26,10 @@ class MainSection extends React.Component {
               <h1 style={{ color: 'white', fontSize: '5em' }}>on-demand</h1>
               <h1 style={{ color: 'white', fontSize: '5em' }}>courier</h1>
 
-              <h4 style={{ color: 'white' }}>We help business deliver their goods and people pick up their products.</h4>
+              <h4 style={{ color: 'white' }}>Community delivery made easy</h4>
               
-            </div>
+             
+            </Container>
 
             <div style={{
               position: 'absolute',
